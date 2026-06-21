@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>毛泽东思想和中国特色社会主义理论体系概论 - 必背考点清单</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .nav-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            background: #f0f0f0;
+            border-bottom: 3px solid #667eea;
+            padding: 0;
+            list-style: none;
+            margin: 0;
+        }
+        
+        .nav-tabs li {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .nav-tabs a {
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            color: #333;
+            border-right: 1px solid #ddd;
+            transition: all 0.3s;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        
+        .nav-tabs a:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .nav-tabs a.active {
+            background: #667eea;
+            color: white;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            display: none;
+        }
+        
+        .section.active {
+            display: block;
+            animation: fadeIn 0.5s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        h2 {
+            color: #667eea;
+            border-left: 5px solid #667eea;
+            padding-left: 15px;
+            margin: 30px 0 20px 0;
+            font-size: 1.8em;
+        }
+        
+        h3 {
+            color: #764ba2;
+            margin: 25px 0 15px 0;
+            font-size: 1.4em;
+            display: flex;
+            align-items: center;
+        }
+        
+        h3::before {
+            content: "▶";
+            margin-right: 10px;
+            color: #667eea;
+        }
+        
+        .framework-box {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border: 2px solid #667eea;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .framework-box h4 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .point-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .point-list li {
+            padding: 10px;
+            margin: 8px 0;
+            background: white;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+        
+        .point-list li:hover {
+            background: #f5f7fa;
+            transform: translateX(5px);
+        }
+        
+        .exam-type {
+            background: #fff9e6;
+            border: 2px solid #ffd700;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        .exam-type h4 {
+            color: #ff6b6b;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .question {
+            background: white;
+            border-left: 4px solid #ff6b6b;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        .question-text {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .answer {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 12px;
+            margin: 10px 0 0 0;
+            border-radius: 4px;
+            color: #2e7d32;
+        }
+        
+        .key-point {
+            background: #ffebee;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 5px solid #ff6b6b;
+        }
+        
+        .key-point strong {
+            color: #c62828;
+            font-size: 1.05em;
+        }
+        
+        .memory-tip {
+            background: #e3f2fd;
+            border: 2px dashed #2196f3;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            color: #1565c0;
+        }
+        
+        .memory-tip::before {
+            content: "💡 记忆技巧：";
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+            color: #0d47a1;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .comparison-table th {
+            background: #667eea;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        .comparison-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .comparison-table tr:hover {
+            background: #f5f7fa;
+        }
+        
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+        
+        .timeline-item {
+            padding: 20px;
+            background: white;
+            margin: 15px 0;
+            border-left: 5px solid #667eea;
+            border-radius: 4px;
+            position: relative;
+            padding-left: 40px;
+        }
+        
+        .timeline-item::before {
+            content: "▲";
+            position: absolute;
+            left: -12px;
+            top: 20px;
+            font-size: 1.2em;
+            color: #667eea;
+        }
+        
+        .timeline-year {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+        
+        .theory-box {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .theory-box h4 {
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+        
+        .theory-box p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        
+        .predict-box {
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .predict-box h4 {
+            margin-bottom: 15px;
+            color: #c62828;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+        
+        .predict-box li {
+            margin: 10px 0;
+            list-style-position: inside;
+        }
+        
+        .tabs-content {
+            position: relative;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        
+        .print-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            transition: all 0.3s;
+        }
+        
+        .print-btn:hover {
+            background: #764ba2;
+            transform: scale(1.1);
+        }
+        
+        @media print {
+            body { background: white; }
+            .print-btn { display: none; }
+            .nav-tabs { display: none; }
+            .section { display: block !important; }
+        }
+        
+        .highlight-red {
+            color: #ff6b6b;
+            font-weight: bold;
+        }
+        
+        .highlight-blue {
+            color: #667eea;
+            font-weight: bold;
+        }
+        
+        .score-info {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .score-card {
+            background: white;
+            border: 2px solid #667eea;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        .score-card .type {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 1.1em;
+        }
+        
+        .score-card .score {
+            font-size: 1.5em;
+            color: #ff6b6b;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 毛泽东思想和中国特色社会主义理论体系概论</h1>
+            <p>必背考点清单 · 完整版 · 2025年复习指南</p>
+        </header>
+        
+        <ul class="nav-tabs">
+            <li><a onclick="switchTab('framework')">📋 全书框架</a></li>
+            <li><a onclick="switchTab('outline')">📖 详细考点</a></li>
+            <li><a onclick="switchTab('questions')">❓ 题型预测</a></li>
+            <li><a onclick="switchTab('memory')">🧠 记忆技巧</a></li>
+            <li><a onclick="switchTab('strategy')">🎯 考试攻略</a></li>
+        </ul>
+        
+        <div class="tabs-content">
+            <!-- 全书框架 -->
+            <div id="framework" class="section active">
+                <h2>📋 全书框架总览</h2>
+                
+                <div class="framework-box">
+                    <h4>🎓 教材逻辑结构</h4>
+                    <p>本教材是围绕"<span class="highlight-blue">马克思主义中国化时代化</span>"这一核心主题展开的完整理论体系。</p>
+                </div>
+                
+                <h3>一、核心认识</h3>
+                <ul class="point-list">
+                    <li><strong>一个导论</strong>：马克思主义中国化时代化的历史进程与理论成果</li>
+                    <li><strong>两大板块</strong>：
+                        <ul style="margin-top: 10px;">
+                            <li style="margin-left: 20px;">📍 <strong>上篇（毛泽东思想）</strong>：第1-4章 - "如何站起来"</li>
+                            <li style="margin-left: 20px;">📍 <strong>下篇（中特社理论）</strong>：第6-8章 - "如何富起来、强起来"</li>
+                        </ul>
+                    </li>
+                    <li><strong>一条时间线</strong>：理论发展与历史进程完全对应</li>
+                </ul>
+                
+                <h3>二、总分结构图</h3>
+                <div class="framework-box">
+                    <h4>毛泽东思想和中国特色社会主义理论体系</h4>
+                    <div style="margin-left: 20px;">
+                        <p><strong>导论</strong> ↓</p>
+                        <p style="color: #667eea;">◆ 毛泽东思想（第1-4章）◆</p>
+                        <ul style="list-style-position: inside; margin: 10px 0 10px 20px;">
+                            <li>第1章：毛泽东思想及其历史地位</li>
+                            <li>第2章：新民主主义革命理论</li>
+                            <li>第3章：社会主义改造理论</li>
+                            <li>第4章：社会主义建设道路初步探索的理论成果</li>
+                        </ul>
+                        <p style="color: #667eea; margin-top: 15px;">◆ 中国特色社会主义理论体系（第5-8章）◆</p>
+                        <ul style="list-style-position: inside; margin: 10px 0 10px 20px;">
+                            <li>第5章：中国特色社会主义理论体系的形成发展（略）</li>
+                            <li>第6章：邓小平理论</li>
+                            <li>第7章："三个代表"重要思想</li>
+                            <li>第8章：科学发展观</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <h3>三、考试题型分布</h3>
+                <div class="score-info">
+                    <div class="score-card">
+                        <div class="type">单项选择题</div>
+                        <div class="score">10题 × 1分</div>
+                        <div>共10分</div>
+                    </div>
+                    <div class="score-card">
+                        <div class="type">多项选择题</div>
+                        <div class="score">10题 × 2分</div>
+                        <div>共20分</div>
+                    </div>
+                    <div class="score-card">
+                        <div class="type">简答题</div>
+                        <div class="score">5题 × 6分</div>
+                        <div>共30分</div>
+                    </div>
+                    <div class="score-card">
+                        <div class="type">论述题</div>
+                        <div class="score">2题 × 20分</div>
+                        <div>共40分</div>
+                    </div>
+                </div>
+                
+                <div class="key-point">
+                    <strong>⚠️ 考试总分：100分</strong><br>
+                    <strong>❌ 多选题风险</strong>：多选题选错一个、漏一个都不得分！务必有十足把握再选。<br>
+                    <strong>🔥 简答题重点</strong>：考验基础知识，上面梳理的核心考点是主要出题点。
+                </div>
+            </div>
+            
+            <!-- 详细考点 -->
+            <div id="outline" class="section">
+                <h2>📖 必背考点详细梳理</h2>
+                
+                <h3>导论：马克思主义中国化时代化</h3>
+                <div class="key-point">
+                    <strong>🔴 必背核心</strong><br>
+                    <strong>科学内涵</strong>：坚持把马克思主义基本原理同中国具体实际相结合、同中华优秀传统文化相结合<br>
+                    <strong>实现途径</strong>：立足中国、放眼世界，回答中国之问、世界之问、人民之问、时代之问<br>
+                    <strong>理论成果</strong>：毛泽东思想、邓小平理论、"三个代表"重要思想、科学发展观、习近平新时代中国特色社会主义思想
+                </div>
+                
+                <h3>第一章：毛泽东思想及其历史地位</h3>
+                <div class="framework-box">
+                    <h4>🎯 核心考点：毛泽东思想的"活的灵魂"（最重要！）</h4>
+                    <p style="margin: 15px 0;"><strong>1. 实事求是</strong></p>
+                    <ul class="point-list">
+                        <li><strong>核心地位</strong>：毛泽东思想的精髓和基本点</li>
+                        <li><strong>科学含义</strong>：一切从实际出发，理论联系实际，坚持在实践中检验真理和发展真理</li>
+                        <li><strong>三点要求</strong>：
+                            <ol style="margin-left: 20px; margin-top: 10px;">
+                                <li>深入实际，把握事物内在必然联系，按客观规律办事</li>
+                                <li>清醒认识和正确把握我国基本国情</li>
+                                <li>不断推进实践基础上的理论创新</li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <p style="margin: 15px 0;"><strong>2. 群众路线</strong></p>
+                    <ul class="point-list">
+                        <li><strong>根本地位</strong>：党的生命线和根本工作路线</li>
+                        <li><strong>核心含义</strong>：一切为了群众，一切依靠群众，从群众中来，到群众中去</li>
+                        <li><strong>三点要求</strong>：
+                            <ol style="margin-left: 20px; margin-top: 10px;">
+                                <li>坚持人民是推动历史发展的根本力量</li>
+                                <li>坚持全心全意为人民服务的根本宗旨</li>
+                                <li>保持党同人民群众的血肉联系</li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <p style="margin: 15px 0;"><strong>3. 独立自主</strong></p>
+                    <ul class="point-list">
+                        <li><strong>精神地位</strong>：中华民族精神之魂</li>
+                        <li><strong>核心含义</strong>：坚持独立思考，走自己的路，维护民族独立和国家主权</li>
+                        <li><strong>三点要求</strong>：
+                            <ol style="margin-left: 20px; margin-top: 10px;">
+                                <li>中国事情必须由中国人自己主张和处理</li>
+                                <li>坚持独立自主的和平外交政策</li>
+                                <li>虚心学习同时坚定民族自尊心和自信心</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="key-point">
+                    <strong>📌 毛泽东思想的历史地位（三位一体）</strong><br>
+                    ① 马克思主义中国化时代化的第一个重大理论成果<br>
+                    ② 中国革命和建设的科学指南<br>
+                    ③ 中国共产党和中国人民宝贵的精神财富
+                </div>
+                
+                <h3>第二章：新民主主义革命理论</h3>
+                <div class="key-point">
+                    <strong>🔴 核心内容：记住"四个总"</strong>
+                </div>
+                
+                <p><strong style="color: #667eea; font-size: 1.1em;">（1）新民主主义革命的总路线</strong></p>
+                <div class="framework-box">
+                    <p style="margin: 10px 0;"><strong>完整表述</strong>：<span class="highlight-red">无产阶级领导的、人民大众的、反对帝国主义、封建主义和官僚资本主义的革命</span></p>
+                    <p style="margin: 15px 0 10px 0;"><strong>四个要素</strong>：</p>
+                    <ul style="margin-left: 20px;">
+                        <li><strong>对象</strong>：帝国主义（首要）、封建主义、官僚资本主义</li>
+                        <li><strong>动力</strong>：无产阶级（最基本）、农民（主力军）、城市小资产阶级、民族资产阶级（两面性）</li>
+                        <li><strong>领导力量</strong>：无产阶级及其政党——中共</li>
+                        <li><strong>前途</strong>：社会主义（区别旧民主主义）</li>
+                    </ul>
+                </div>
+                
+                <p><strong style="color: #667eea; font-size: 1.1em;">（2）新民主主义革命的总纲领</strong></p>
+                <table class="comparison-table">
+                    <tr>
+                        <th style="width: 25%;">纲领类型</th>
+                        <th style="width: 75%;">具体内容</th>
+                    </tr>
+                    <tr>
+                        <td><strong>政治纲领</strong></td>
+                        <td>推翻帝封官统治，建立无产阶级领导的、工农联盟为基础的、各阶级联合专政的新民主主义共和国（国体+政体）</td>
+                    </tr>
+                    <tr>
+                        <td><strong>经济纲领</strong></td>
+                        <td>没收地主土地归农民 + 没收官僚资本归国家（这两个建立社会主义经济基础）+ 保护民族工商业</td>
+                    </tr>
+                    <tr>
+                        <td><strong>文化纲领</strong></td>
+                        <td>民族的、科学的、大众的文化（无产阶级领导的反帝反封建文化）</td>
+                    </tr>
+                </table>
+                
+                <p><strong style="color: #667eea; font-size: 1.1em;">（3）新民主主义革命的总道路</strong></p>
+                <div class="theory-box">
+                    <h4>🔥 农村包围城市、武装夺取政权</h4>
+                    <p><strong>三者有机结合</strong>：</p>
+                    <ul style="margin: 15px 0 15px 20px; list-style-position: inside;">
+                        <li>土地革命 = 基本内容（激发农民积极性）</li>
+                        <li>武装斗争 = 主要形式（保证土地革命）</li>
+                        <li>革命根据地 = 战略阵地（进行武装和土改的依托）</li>
+                    </ul>
+                    <p><strong>道路的意义</strong>：从中国实际出发，开辟了中国式社会主义道路，独创性发展了马克思主义</p>
+                </div>
+                
+                <p><strong style="color: #667eea; font-size: 1.1em;">（4）新民主主义革命的三大法宝</strong></p>
+                <table class="comparison-table">
+                    <tr>
+                        <th>法宝</th>
+                        <th>核心要点</th>
+                    </tr>
+                    <tr>
+                        <td><strong>统一战线</strong></td>
+                        <td>建立巩固的工农联盟（基础）+ 正确对待民族资产阶级（既联合又斗争）+ 区别对待敌对势力（发展进步、争取中间、孤立顽固）</td>
+                    </tr>
+                    <tr>
+                        <td><strong>武装斗争</strong></td>
+                        <td>党对军队绝对领导 + 人民军队为人民服务 + 革命政治工作 + 正确战略战术</td>
+                    </tr>
+                    <tr>
+                        <td><strong>党的建设</strong></td>
+                        <td>思想建设首位 + 重视组织建设 + 作风建设（理论联系实际、密切联系群众、批评自我批评）</td>
+                    </tr>
+                </table>
+                
+                <h3>第三章：社会主义改造理论</h3>
+                <div class="key-point">
+                    <strong>🔴 核心概念："一化三改"（关键！）</strong><br>
+                    ① <strong>一化</strong>：社会主义工业化<br>
+                    ② <strong>三改</strong>：对农业、手工业、资本主义工商业的社会主义改造
+                </div>
+                
+                <p><strong style="color: #667eea; font-size: 1.1em;">改造的方式和步骤</strong></p>
+                <ul class="point-list">
+                    <li><strong>农业改造</strong>：互助组 → 初级社 → 高级社（采取自愿互利、循序渐进原则）</li>
+                    <li><strong>手工业改造</strong>：供销小组 → 供销合作社 → 生产合作社（积极领导、稳步前进）</li>
+                    <li><strong>资本主义工商业改造</strong>：
+                        <ul style="margin-left: 40px;">
+                            <li>①低级国家资本主义：加工订货、经销代销、统购包销</li>
+                            <li>②高级国家资本主义：个别企业公私合营 → 全行业公私合营</li>
+                            <li>③和平赎买：让资本家在一定年限内获取利润（4马分肥）</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <h3>第四章：社会主义建设道路初步探索</h3>
+                <div class="framework-box">
+                    <h4>三大理论成果</h4>
+                    <p><strong>1. 调动一切积极因素</strong>：《论十大关系》提出，调动国内外一切积极力量为社会主义事业服务</p>
+                    <p style="margin-top: 15px;"><strong>2. 正确处理社会主义社会矛盾</strong>：</p>
+                    <ul style="margin-left: 20px;">
+                        <li>基本矛盾：生产关系与生产力、上层建筑与经济基础（非对抗性）</li>
+                        <li>主要矛盾：人民对经济文化迅速发展的需要与当前经济文化不能满足需要的状况</li>
+                        <li>两类矛盾：敌我矛盾（用专政）vs 人民内部矛盾（用民主）</li>
+                    </ul>
+                    <p style="margin-top: 15px;"><strong>3. 走中国工业化道路</strong>：</p>
+                    <ul style="margin-left: 20px;">
+                        <li>基本方针：以农业为基础，以工业为主导，按农轻重顺序发展</li>
+                        <li>"两条腿"思想：重轻工业并举、中央地方并举、沿海内地并举、大小企业并举</li>
+                    </ul>
+                </div>
+                
+                <h3>第六章：邓小平理论</h3>
+                <div class="key-point">
+                    <strong>🔴 首要问题和精髓（重中之重！）</strong><br>
+                    <strong>问题</strong>：什么是社会主义，怎样建设社会主义<br>
+                    <strong>精髓</strong>：解放思想，实事求是<br>
+                    <strong>本质界定</strong>：解放生产力，发展生产力，消灭剥削，消除两极分化，最终达到共同富裕
+                </div>
+                
+                <p><strong style="color: #667eea; font-size: 1.1em;">邓小平理论的主要内容</strong></p>
+                <ul class="point-list">
+                    <li><strong>社会主义初级阶段理论</strong>：我们已进入社会主义，但仍处初级阶段，具有长期性</li>
+                    <li><strong>基本路线</strong>："一个中心、两个基本点"
+                        <ul style="margin-left: 40px;">
+                            <li>一个中心：经济建设为中心</li>
+                            <li>两个基本点：坚持四项基本原则 + 坚持改革开放</li>
+                        </ul>
+                    </li>
+                    <li><strong>社会主义根本任务</strong>：发展生产力（这是社会主义的根本任务）</li>
+                    <li><strong>"三步走"战略</strong>：
+                        <ul style="margin-left: 40px;">
+                            <li>第一步（1990）：解决温饱</li>
+                            <li>第二步（2000）：达到小康</li>
+                            <li>第三步（2050）：达到中等发达国家水平，人民富裕，基本实现现代化</li>
+                        </ul>
+                    </li>
+                    <li><strong>社会主义市场经济理论</strong>：计划和市场不是制度标志，都是经济手段，可结合不同制度</li>
+                    <li><strong>"一国两制"</strong>：祖国统一的伟大构想，保持香港澳门台湾原有制度</li>
+                </ul>
+                
+                <h3>第七章："三个代表"重要思想</h3>
+                <div class="theory-box">
+                    <h4>🔥 三个代表（核心观点，必背！）</h4>
+                    <p>党始终代表<strong>中国先进生产力的发展要求</strong></p>
+                    <p>党始终代表<strong>中国先进文化的前进方向</strong></p>
+                    <p>党始终代表<strong>中国最广大人民的根本利益</strong></p>
+                </div>
+                
+                <p><strong style="color: #667eea; font-size: 1.1em;">主要内容六大方面</strong></p>
+                <ul class="point-list">
+                    <li><strong>发展是第一要务</strong>：用发展办法解决问题，发展是硬道理</li>
+                    <li><strong>建立社会主义市场经济体制</strong>：这是改革的目标</li>
+                    <li><strong>全面建设小康社会</strong>：这是跨世纪的奋斗目标</li>
+                    <li><strong>建设社会主义政治文明</strong>：与物质文明、精神文明并列（新提法）</li>
+                    <li><strong>"引进来"和"走出去"战略</strong>：对外开放的新方针</li>
+                    <li><strong>推进党的建设新的伟大工程</strong>：党的先进性建设（核心 + 关键 + 重点）</li>
+                </ul>
+                
+                <h3>第八章：科学发展观</h3>
+                <div class="theory-box">
+                    <h4>🔥 科学内涵（16个字，必背！）</h4>
+                    <p><strong style="font-size: 1.2em;">第一要义：发展 | 核心：以人为本 | 基本要求：全面协调可持续 | 根本方法：统筹兼顾</strong></p>
+                </div>
+                
+                <table class="comparison-table">
+                    <tr>
+                        <th>要素</th>
+                        <th>含义与要求</th>
+                    </tr>
+                    <tr>
+                        <td><strong>第一要义：发展</strong></td>
+                        <td>推动经济社会发展 + 加快转变经济发展方式 + 推动科技进步 + 善于抓住机遇</td>
+                    </tr>
+                    <tr>
+                        <td><strong>核心：以人为本</strong></td>
+                        <td>发展为了人民 + 发展依靠人民 + 发展成果由人民共享 + 实现人的全面发展</td>
+                    </tr>
+                    <tr>
+                        <td><strong>基本要求：全面协调可持续</strong></td>
+                        <td>全面发展：经济政治文化社会和生态文明协调 | 协调发展：城乡、区域协调 | 可持续：资源节约、环保优先</td>
+                    </tr>
+                    <tr>
+                        <td><strong>根本方法：统筹兼顾</strong></td>
+                        <td>五个统筹：城乡 + 区域 + 经济社会 + 人与自然 + 国内国际 | 正确处理各方利益关系</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <!-- 题型预测 -->
+            <div id="questions" class="section">
+                <h2>❓ 高频考点题型预测</h2>
+                
+                <div class="exam-type">
+                    <h4>🎯 选择题预测（单选 + 多选）</h4>
+                    <div class="question">
+                        <div class="question-text">【题型1】马克思主义中国化时代化的核心要求是什么？</div>
+                        <div class="answer">
+                            <strong>答案</strong>：坚持把马克思主义基本原理同中国具体实际相结合、同中华优秀传统文化相结合
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【题型2】毛泽东思想的活的灵魂由哪三个方面组成？</div>
+                        <div class="answer">
+                            <strong>答案</strong>：实事求是（核心）、群众路线（根本工作路线）、独立自主（精神之魂）
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【题型3】新民主主义革命的总路线是什么？（高频！）</div>
+                        <div class="answer">
+                            <strong>答案</strong>：无产阶级领导的、人民大众的、反对帝国主义、封建主义和官僚资本主义的革命
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【题型4】农村包围城市、武装夺取政权的道路是由哪三个方面有机结合而成的？</div>
+                        <div class="answer">
+                            <strong>答案</strong>：土地革命（基本内容） + 武装斗争（主要形式） + 革命根据地建设（战略阵地）
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【题型5】"一化三改"是指什么？</div>
+                        <div class="answer">
+                            <strong>答案</strong>：一化 = 社会主义工业化 | 三改 = 对农业、手工业、资本主义工商业的社会主义改造
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【题型6】社会主义社会的基本矛盾是什么？（高频！）</div>
+                        <div class="answer">
+                            <strong>答案</strong>：生产关系与生产力之间的矛盾、上层建筑与经济基础之间的矛盾（非对抗性）
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【题型7】邓小平理论回答的首要基本问题是什么？</div>
+                        <div class="answer">
+                            <strong>答案</strong>：什么是社会主义，怎样建设社会主义
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【题型8】邓小平对社会主义本质的概括是什么？（10+18=28！）</div>
+                        <div class="answer">
+                            <strong>答案</strong>：社会主义的本质，是解放生产力，发展生产力，消灭剥削，消除两极分化，最终达到共同富裕
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【题型9】"一个中心、两个基本点"是什么？</div>
+                        <div class="answer">
+                            <strong>答案</strong>：一个中心 = 经济建设为中心 | 两个基本点 = 坚持四项基本原则 + 坚持改革开放
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【题型10】"三个代表"重要思想的核心观点是什么？（高频简答题！）</div>
+                        <div class="answer">
+                            <strong>答案</strong>：党始终代表中国先进生产力的发展要求、中国先进文化的前进方向、中国最广大人民的根本利益
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【题型11】科学发展观的科学内涵是什么？（16个字必背！）</div>
+                        <div class="answer">
+                            <strong>答案</strong>：第一要义是发展，核心是以人为本，基本要求是全面协调可持续，根本方法是统筹兼顾
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="exam-type">
+                    <h4>📝 简答题预测（6分题）</h4>
+                    
+                    <div class="question">
+                        <div class="question-text">【简答题1】毛泽东思想的活的灵魂包括哪些内容？分别说明其主要含义和要求。</div>
+                        <div class="answer">
+                            <strong>参考答案</strong>：<br>
+                            1. <strong>实事求是</strong>：一切从实际出发，理论联系实际，坚持在实践中检验真理。要求：深入实际、清醒认识国情、推进理论创新。<br>
+                            2. <strong>群众路线</strong>：一切为了群众，一切依靠群众，从群众中来，到群众中去。要求：坚持人民推动历史、坚持为人民服务、保持血肉联系。<br>
+                            3. <strong>独立自主</strong>：坚持独立思考，走自己的路，维护民族独立。要求：中国事务由中国人决定、坚持和平外交、学习同时坚定自信。
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【简答题2】新民主主义革命总路线的内容是什么？它的四个要素分别是什么？</div>
+                        <div class="answer">
+                            <strong>参考答案</strong>：<br>
+                            <strong>总路线</strong>：无产阶级领导的、人民大众的、反对帝国主义、封建主义和官僚资本主义的革命。<br>
+                            <strong>四个要素</strong>：<br>
+                            ① <strong>对象</strong>：帝国主义（首要）、封建主义、官僚资本主义<br>
+                            ② <strong>动力</strong>：无产阶级（基本）、农民（主力）、小资、民族资产阶级<br>
+                            ③ <strong>领导</strong>：无产阶级及其政党中共<br>
+                            ④ <strong>前途</strong>：社会主义（不是资本主义）
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【简答题3】农村包围城市、武装夺取政权的道路内容是什么？它是如何由三个方面有机结合而成的？</div>
+                        <div class="answer">
+                            <strong>参考答案</strong>：<br>
+                            <strong>道路内容</strong>：中国革命走农村包围城市、武装夺取政权的道路。<br>
+                            <strong>三个方面的结合</strong>：<br>
+                            ① <strong>土地革命</strong>：基本内容，满足农民要求，获得农民支持<br>
+                            ② <strong>武装斗争</strong>：主要形式，保证土地革命进行，消灭反动统治<br>
+                            ③ <strong>根据地建设</strong>：战略阵地，是开展武装斗争和土地革命的依托<br>
+                            这三个方面相互联系、互为补充，形成有机统一体。
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【简答题4】新民主主义革命的三大法宝是什么？各自的核心要素是什么？</div>
+                        <div class="answer">
+                            <strong>参考答案</strong>：<br>
+                            ① <strong>统一战线</strong>：建立工农联盟，正确对待民族资产阶级（既联合又斗争），区别对待各种势力<br>
+                            ② <strong>武装斗争</strong>：坚持党的绝对领导，建设人民军队，开展政治工作，运用正确战略战术<br>
+                            ③ <strong>党的建设</strong>：思想建设优先，加强组织建设，重视作风建设<br>
+                            <strong>关系</strong>：前两个是基本武器，后者是掌握这两个武器的战士。
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【简答题5】什么是"一化三改"？其历史意义是什么？</div>
+                        <div class="answer">
+                            <strong>参考答案</strong>：<br>
+                            <strong>内容</strong>：<br>
+                            ① <strong>一化</strong>：社会主义工业化<br>
+                            ② <strong>三改</strong>：对农业、手工业、资本主义工商业的社会主义改造<br>
+                            <strong>意义</strong>：<br>
+                            这是同时并举的总路线和总任务。体现了：工业化和改造同时进行，物质生产和社会制度同步转变，解放生产力和发展生产力的有机统一。成功完成后，建立了社会主义基本制度。
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【简答题6】如何理解社会主义社会的基本矛盾？为什么说它是非对抗性的？</div>
+                        <div class="answer">
+                            <strong>参考答案</strong>：<br>
+                            <strong>基本矛盾</strong>：生产关系与生产力的矛盾、上层建筑与经济基础的矛盾。<br>
+                            <strong>非对抗性原因</strong>：<br>
+                            ① 社会主义制度已建立，生产关系基本适应生产力<br>
+                            ② 上层建筑基本适应经济基础<br>
+                            ③ 党和人民的根本利益一致<br>
+                            ④ 这个矛盾可以通过改革逐步解决，而不是通过革命推翻<br>
+                            <strong>解决方法</strong>：用民主方法、用改革的办法解决
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【简答题7】邓小平理论的精髓是什么？如何在实践中贯彻？</div>
+                        <div class="answer">
+                            <strong>参考答案</strong>：<br>
+                            <strong>精髓</strong>：解放思想，实事求是<br>
+                            <strong>如何贯彻</strong>：<br>
+                            ① 要坚持解放思想和实事求是的统一<br>
+                            ② 解放思想要以实事求是为前提和基础<br>
+                            ③ 实事求是要通过不断解放思想才能充分实现<br>
+                            ④ 敢于面对新情况新问题，在学习中创新，在实践中发展<br>
+                            ⑤ 破除僵化观念，坚持走自己的路，一切从社会主义初级阶段实际出发
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【简答题8】"一个中心、两个基本点"的基本路线有什么现实意义？</div>
+                        <div class="answer">
+                            <strong>参考答案</strong>：<br>
+                            <strong>基本路线内容</strong>：领导和团结全国各族人民，以经济建设为中心，坚持四项基本原则，坚持改革开放。<br>
+                            <strong>现实意义</strong>：<br>
+                            ① <strong>经济建设为中心</strong>：是最根本的拨乱反正，体现了对社会主义根本任务的认识<br>
+                            ② <strong>四项基本原则</strong>：是立国之本，是政治基石，保证了改革开放的正确方向<br>
+                            ③ <strong>改革开放</strong>：是强国之路，是活力源泉，推动社会主义制度的完善和发展<br>
+                            ④ 三者统一，体现了继承与发展、稳定与改革的有机统一
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【简答题9】什么是"三个代表"？其核心观点之间有什么关系？</div>
+                        <div class="answer">
+                            <strong>参考答案</strong>：<br>
+                            <strong>"三个代表"内容</strong>：<br>
+                            ① 党始终代表中国先进生产力的发展要求<br>
+                            ② 党始终代表中国先进文化的前进方向<br>
+                            ③ 党始终代表中国最广大人民的根本利益<br>
+                            <strong>相互关系</strong>：<br>
+                            ① 发展先进生产力是发展先进文化和实现人民利益的基础<br>
+                            ② 人民群众是生产力和文化的创造者，同时是自身利益的维护者<br>
+                            ③ 发展先进生产力和文化最终都是为了实现人民的根本利益<br>
+                            ④ 三者统一，形成完整的理论体系
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【简答题10】科学发展观的四个方面是什么？各有什么含义？</div>
+                        <div class="answer">
+                            <strong>参考答案</strong>：<br>
+                            ① <strong>第一要义：发展</strong> - 推动经济社会持续发展，加快发展方式转变，推动科技进步<br>
+                            ② <strong>核心：以人为本</strong> - 发展为了人民、依靠人民、成果由人民共享，实现人的全面发展<br>
+                            ③ <strong>基本要求：全面协调可持续</strong> - 经济政治文化社会生态文明协调发展，城乡区域协调，资源环保可持续<br>
+                            ④ <strong>根本方法：统筹兼顾</strong> - 统筹城乡、区域、经济社会、人与自然、国内国际五个方面，正确处理各类矛盾和利益
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="exam-type">
+                    <h4>📚 论述题预测（20分题）</h4>
+                    
+                    <div class="question">
+                        <div class="question-text">【论述题1】试论毛泽东思想的活的灵魂对当代中国特色社会主义建设的指导意义。</div>
+                        <div class="answer">
+                            <strong>答题思路</strong>：<br>
+                            第一段：介绍毛泽东思想活的灵魂的三个方面（实事求是、群众路线、独立自主）<br>
+                            第二段：分别阐述三个方面对建设中国特色社会主义的指导意义<br>
+                            第三段：联系当下国情（新时代）说明这些思想的现实应用<br>
+                            第四段：得出结论
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【论述题2】试论新民主主义革命总路线的科学性及其对中国革命胜利的作用。</div>
+                        <div class="answer">
+                            <strong>答题思路</strong>：<br>
+                            第一段：陈述新民主主义革命总路线的完整内容和四个要素<br>
+                            第二段：分析总路线的科学性（为什么是这样）——来自中国国情的必然结果<br>
+                            第三段：说明总路线对中国革命胜利的作用（如何指导革命）<br>
+                            第四段：反映出的理论意义（对马克思主义的发展）
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【论述题3】试论社会主义改造的必然性和我国采取的改造方式的先进性。</div>
+                        <div class="answer">
+                            <strong>答题思路</strong>：<br>
+                            第一段：说明为什么要进行社会主义改造（新民主主义社会的过渡性，社会矛盾的发展）<br>
+                            第二段：介绍"一化三改"的内容<br>
+                            第三段：分析我国改造的方式特点（和平、循序渐进、因地制宜）——优于苏联的暴力方式<br>
+                            第四段：改造的伟大意义（建立社会主义基本制度，实现两大飞跃）
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【论述题4】试论邓小平理论如何回答了"什么是社会主义、怎样建设社会主义"这个根本问题。</div>
+                        <div class="answer">
+                            <strong>答题思路</strong>：<br>
+                            第一段：说明这个问题提出的背景和重要意义<br>
+                            第二段：邓小平的社会主义本质论（十个字：解放生产力、发展生产力）<br>
+                            第三段：邓小平对"怎样建设"的回答（社会主义初级阶段、基本路线、"三步走"、市场经济）<br>
+                            第四段：这个理论的创新意义和现实指导作用
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【论述题5】试论"三个代表"重要思想对新时代党的建设的意义。</div>
+                        <div class="answer">
+                            <strong>答题思路</strong>：<br>
+                            第一段：介绍"三个代表"的核心观点<br>
+                            第二段：分别论述三个代表对党建的要求<br>
+                            第三段：说明党的先进性建设的重要性<br>
+                            第四段：联系新时代党面临的挑战（考验），说明"三个代表"思想的现实意义<br>
+                            第五段：得出结论
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <div class="question-text">【论述题6】试论科学发展观的理论意义和实践意义。</div>
+                        <div class="answer">
+                            <strong>答题思路</strong>：<br>
+                            第一段：介绍科学发展观的提出背景（新世纪新阶段的新要求）<br>
+                            第二段：阐述科学发展观的科学内涵（16个字）<br>
+                            第三段：分析其理论意义（对马克思主义发展观的创新）<br>
+                            第四段：分析其实践意义（指导全面建设小康社会和经济社会发展）<br>
+                            第五段：得出结论
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 记忆技巧 -->
+            <div id="memory" class="section">
+                <h2>🧠 记忆技巧与知识点速记</h2>
+                
+                <h3>核心概念快速记忆</h3>
+                
+                <div class="memory-tip">
+                    毛泽东思想活的灵魂"三驾马车"
+                    <p>🚀 实事求是 = "一切从实际出发，理论联系实际" = 核心</p>
+                    <p>🚀 群众路线 = "一切为了群众，一切依靠群众" = 生命线</p>
+                    <p>🚀 独立自主 = "坚持走自己的路" = 精神之魂</p>
+                </div>
+                
+                <div class="memory-tip">
+                    新民主主义革命"四个二分法"
+                    <p>【对象】：帝国主义（第一）、封建主义、官僚资本主义</p>
+                    <p>【动力】：无产阶级（最基本）、农民（主力军）、小资、民族资产阶级</p>
+                    <p>【领导】：无产阶级及其政党 vs 旧民主革命由资产阶级领导</p>
+                    <p>【前途】：社会主义 vs 旧民主革命走向资本主义</p>
+                </div>
+                
+                <div class="memory-tip">
+                    三大法宝"排序法"
+                    <p>【想象】：统一战线 → 武装斗争 → 党的建设（按照"结成同盟→拿起武器→自我完善"的顺序）</p>
+                    <p>【关系】：前两个是"武器"，最后一个是"拿武器的战士"</p>
+                    <p>【特点】：相互联系、紧密结合、缺一不可</p>
+                </div>
+                
+                <div class="memory-tip">
+                    "一化三改"的"化"学
+                    <p>✨ 一化 = <strong>工业化</strong>（机器轰鸣声）</p>
+                    <p>✨ 三改 = <strong>农业</strong>改造 + <strong>手工业</strong>改造 + <strong>工商业</strong>改造</p>
+                    <p>✨ 三个方向 = 农民 → 手工业者 → 资本家（从小到大）</p>
+                    <p>✨ 时间快慢 = 农业快 → 手工业快 → 工商业最快（1956年基本完成）</p>
+                </div>
+                
+                <div class="memory-tip">
+                    社会主义矛盾的"两分法"
+                    <p>基本矛盾 = <strong>生产关系 ↔ 生产力</strong> + <strong>上层建筑 ↔ 经济基础</strong></p>
+                    <p>两类矛盾 = <strong>敌我</strong>（对抗性，用专政）vs <strong>人民内部</strong>（非对抗性，用民主）</p>
+                    <p>区分标准 = 是否涉及社会制度本身 | 是否涉及根本利益冲突</p>
+                </div>
+                
+                <div class="memory-tip">
+                    邓小平理论的"三部曲"
+                    <p>🎼 精髓 = <strong>解放思想、实事求是</strong>（思想路线）</p>
+                    <p>🎼 本质 = <strong>解放生产力、发展生产力</strong>（10+8=18个字）</p>
+                    <p>🎼 路线 = <strong>一个中心、两个基本点</strong>（经建中心 + 四项原则 + 改革开放）</p>
+                </div>
+                
+                <div class="memory-tip">
+                    "一个中心、两个基本点"的"1+2"结构
+                    <p>中心 = 经济建设为中心（<strong>做什么</strong>）</p>
+                    <p>基本点① = 坚持四项基本原则（<strong>靠什么</strong>——政治保证）</p>
+                    <p>基本点② = 坚持改革开放（<strong>怎么做</strong>——动力源泉）</p>
+                    <p>关键：<strong>经建是目标，四项是底线，改开是手段</strong></p>
+                </div>
+                
+                <div class="memory-tip">
+                    "三个代表"的"金字塔"结构
+                    <p>⬆️ 最广大人民的根本利益（顶端目标）</p>
+                    <p>⬆️ 中国先进文化的前进方向（精神支柱）</p>
+                    <p>⬆️ 中国先进生产力的发展要求（物质基础）</p>
+                    <p>记忆：物质 → 精神 → 利益（从下往上）</p>
+                </div>
+                
+                <div class="memory-tip">
+                    科学发展观的"16字"拆解
+                    <p>🔴 第一要义 = <strong>发展</strong>（目标）</p>
+                    <p>🔵 核心 = <strong>以人为本</strong>（价值）</p>
+                    <p>🟢 基本要求 = <strong>全面协调可持续</strong>（方向）</p>
+                    <p>🟡 根本方法 = <strong>统筹兼顾</strong>（手段）</p>
+                    <p>【口诀】："要发展，为人民，全面协，统筹衡"</p>
+                </div>
+                
+                <h3>高频数字记忆法</h3>
+                <div class="framework-box">
+                    <h4>重要的"数字编码"</h4>
+                    <ul style="margin-left: 20px;">
+                        <li><strong>三个法宝</strong>：统一战线、武装斗争、党的建设</li>
+                        <li><strong>三改一化</strong>：农改、手改、工改 + 工业化</li>
+                        <li><strong>三大关系</strong>：矛盾存在于生产关系与生产力、上层建筑与经济基础</li>
+                        <li><strong>三步走</strong>：第一步（1990）温饱 → 第二步（2000）小康 → 第三步（2050）现代化</li>
+                        <li><strong>五个统筹</strong>：城乡、区域、经济社会、人与自然、国内国际</li>
+                        <li><strong>两个飞跃</strong>：毛泽东时代的社会主义改造 + 改开时代的改革开放</li>
+                    </ul>
+                </div>
+                
+                <h3>对比记忆法</h3>
+                <table class="comparison-table">
+                    <tr>
+                        <th>概念对比</th>
+                        <th>毛泽东思想</th>
+                        <th>邓小平理论</th>
+                        <th>科学发展观</th>
+                    </tr>
+                    <tr>
+                        <td><strong>出发问题</strong></td>
+                        <td>怎样进行革命</td>
+                        <td>什么是社会主义</td>
+                        <td>怎样科学发展</td>
+                    </tr>
+                    <tr>
+                        <td><strong>核心内容</strong></td>
+                        <td>武装夺取政权</td>
+                        <td>解放生产力</td>
+                        <td>以人为本</td>
+                    </tr>
+                    <tr>
+                        <td><strong>历史地位</strong></td>
+                        <td>站起来</td>
+                        <td>富起来</td>
+                        <td>强起来基础</td>
+                    </tr>
+                    <tr>
+                        <td><strong>时代主题</strong></td>
+                        <td>战争与革命</td>
+                        <td>和平与发展</td>
+                        <td>和谐与进步</td>
+                    </tr>
+                </table>
+                
+                <h3>联想记忆法（故事化）</h3>
+                <div class="framework-box">
+                    <h4>📖 毛泽东思想的故事</h4>
+                    <p>【情景】：一个年轻的中共在探索救国之路</p>
+                    <p>【第一步】：认清国情（实事求是）→ 发现农村是突破口</p>
+                    <p>【第二步】：依靠农民（群众路线）→ 建立根据地，发动农民</p>
+                    <p>【第三步】：独立自主（独立自主）→ 不抄苏联，走自己的路</p>
+                    <p>【结果】：农村包围城市，武装夺取政权 → 建立新中国</p>
+                </div>
+                
+                <div class="framework-box">
+                    <h4>📖 邓小平理论的故事</h4>
+                    <p>【危机】：十年"文化大革命"后，中国经济濒临崩溃</p>
+                    <p>【转折】：邓小平从"徘徊"中清醒过来 → 解放思想，实事求是</p>
+                    <p>【认识】：什么是社会主义？→ 解放生产力，发展生产力！</p>
+                    <p>【行动】：改革开放 → 经济建设为中心 → 从温饱到小康</p>
+                    <p>【成果】：中国经济奇迹般增长 → 向世界证明社会主义可以发展</p>
+                </div>
+            </div>
+            
+            <!-- 考试攻略 -->
+            <div id="strategy" class="section">
+                <h2>🎯 考试攻略与得分技巧</h2>
+                
+                <h3>考试题型与得分策略</h3>
+                
+                <div class="predict-box">
+                    <h4>🔥 多项选择题风险规避（20分）</h4>
+                    <p>❌ <strong>最常见错误</strong>：选对了一两个，却漏选或多选了别的，结果全部扣分</p>
+                    <p>✅ <strong>解决方案</strong>：</p>
+                    <ul>
+                        <li>① 先排除明显错误的选项</li>
+                        <li>② 用教材原文或标准表述逐一比对</li>
+                        <li>③ 如果有把握不了的选项，宁可不选，也别冒险</li>
+                        <li>④ 对比四个"三个代表"和"科学发展观"的题，多查漏补缺</li>
+                        <li>⑤ 特别注意否定项（"不是"、"无关"、"不能"）</li>
+                    </ul>
+                </div>
+                
+                <div class="predict-box">
+                    <h4>📝 简答题高分技巧（30分）</h4>
+                    <p>✅ <strong>答题步骤</strong>：</p>
+                    <ul>
+                        <li>① <strong>定位章节</strong>：快速判断是第几章的内容，思路就不会偏</li>
+                        <li>② <strong>展开要点</strong>：用"首先...其次...再次..."分段作答</li>
+                        <li>③ <strong>用词准确</strong>：尽量使用教材原文或标准术语</li>
+                        <li>④ <strong>层级清晰</strong>：每点用1-2句话说清，不要堆砌</li>
+                        <li>⑤ <strong>卷面工整</strong>：字迹清晰对简答题很重要，老师愿意给更多分</li>
+                    </ul>
+                </div>
+                
+                <div class="predict-box">
+                    <h4>📚 论述题得分要点（40分）</h4>
+                    <p>✅ <strong>答题结构</strong>：</p>
+                    <ul>
+                        <li>① <strong>首段</strong>：简述题目问什么，或说明问题的重要性</li>
+                        <li>② <strong>中间段</strong>（2-3段）：逐层展开论述，每段一个论点</li>
+                        <li>③ <strong>末段</strong>：总结全文，得出结论</li>
+                        <li>④ <strong>理论 + 实际</strong>：题目要求时，联系当代中国国情（新时代、新征程）</li>
+                        <li>⑤ <strong>用例子</strong>：可引用小故事或现实案例论证观点，但不超过总字数的1/3</li>
+                    </ul>
+                </div>
+                
+                <h3>题目陷阱与避坑指南</h3>
+                
+                <div class="key-point">
+                    <strong>⚠️ 常见陷阱1：混淆相似概念</strong><br>
+                    【错】新民主主义革命 = 旧民主主义革命（其实截然不同）<br>
+                    【对】对比关键词：领导力量、指导思想、前途
+                </div>
+                
+                <div class="key-point">
+                    <strong>⚠️ 常见陷阱2：题目出现"第二次"、"新提法"时要警觉</strong><br>
+                    【例】"毛泽东提出的'第二次结合'是指什么？" → 考察的是社会主义改造理论中的新概念<br>
+                    【对策】遇到陌生或新提法，回到教材查找原文
+                </div>
+                
+                <div class="key-point">
+                    <strong>⚠️ 常见陷阱3：数字易混淆</strong><br>
+                    【混】"三个代表"有三个方面 vs "三个主体、三个补充"<br>
+                    【对策】列表整理所有含"三"的概念，按章节归类
+                </div>
+                
+                <div class="key-point">
+                    <strong>⚠️ 常见陷阱4：因果关系颠倒</strong><br>
+                    【错】"因为要进行社会主义改造，所以要建立新民主主义社会" （顺序反了）<br>
+                    【对】应该是：新民主主义社会的性质决定了必然要进行社会主义改造
+                </div>
+                
+                <h3>复习时间规划</h3>
+                
+                <div class="framework-box">
+                    <h4>📅 三轮复习方案</h4>
+                    <p><strong>第一轮（快速通读）</strong> - 7天</p>
+                    <ul style="margin-left: 20px;">
+                        <li>用2-3天快速浏览整个教材，建立总体框架</li>
+                        <li>用3-4天针对每章做一份思维导图（重点抓黑体字）</li>
+                        <li>完成：脑海中有"一竖两横"的大结构</li>
+                    </ul>
+                    <p style="margin-top: 15px;"><strong>第二轮（精细研读）</strong> - 10-14天</p>
+                    <ul style="margin-left: 20px;">
+                        <li>逐章深入学习，对照教材整理考点清单</li>
+                        <li>做该章节的选择题和简答题练习，掌握出题规律</li>
+                        <li>完成：掌握每章的"核心考点三件套"（核心概念 + 历史发展 + 理论意义）</li>
+                    </ul>
+                    <p style="margin-top: 15px;"><strong>第三轮（冲刺复习）</strong> - 5-7天</p>
+                    <ul style="margin-left: 20px;">
+                        <li>做历年真题卷，模拟考试环境</li>
+                        <li>针对薄弱环节重点突破（特别是简答题和论述题）</li>
+                        <li>整理个人的"易错本"和"高频题库"</li>
+                        <li>完成：完全准备好考试状态</li>
+                    </ul>
+                </div>
+                
+                <h3>高分必备知识点速查表</h3>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">导论</div>
+                        <p><strong>必背</strong>：马克思主义中国化时代化的科学内涵（坚持两个结合）</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">第1章</div>
+                        <p><strong>必背</strong>：毛思想活的灵魂（实、群、独）+ 历史地位（三位一体）</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">第2章</div>
+                        <p><strong>必背</strong>：新民主主义革命总路线 + 三大法宝 + 农村包围城市道路</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">第3章</div>
+                        <p><strong>必背</strong>："一化三改" + 改造的步骤（三步+）+ 和平赎买政策</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">第4章</div>
+                        <p><strong>必背</strong>：三大理论成果 + 社会主义社会矛盾论</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">第6章</div>
+                        <p><strong>必背</strong>：精髓（解放思想、实事求是）+ 本质（解放生产力）+ 基本路线（1+2）</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">第7章</div>
+                        <p><strong>必背</strong>：三个代表 + 首要内容（发展是第一要务）+ 主要内容六方面</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">第8章</div>
+                        <p><strong>必背</strong>：科学内涵16字（发展、以人为本、全面协调可持续、统筹兼顾）+ 五个统筹</p>
+                    </div>
+                </div>
+                
+                <h3>考前一周冲刺清单</h3>
+                
+                <div class="framework-box">
+                    <h4>✅ 最后7天必做</h4>
+                    <ul style="margin-left: 20px;">
+                        <li>Day 1-2：过一遍所有黑体字，再过一遍本清单的"高频考点"</li>
+                        <li>Day 3-4：做一份完整真题卷，严格按考试时间（3小时）</li>
+                        <li>Day 5：整理错题，分析每题为什么错（是概念混淆还是审题不当）</li>
+                        <li>Day 6：再做一份真题卷，查漏补缺</li>
+                        <li>Day 7：浏览本清单，做心理建设，早点睡觉，考前保持平常心</li>
+                    </ul>
+                </div>
+                
+                <div class="key-point">
+                    <strong>🎖️ 最后的话</strong><br>
+                    这份清单是根据教学重点和考试规律整理的。考试时不要慌张，拿到题目先快速浏览全卷，评估难度；然后从简到难逐题攻破。<br><br>
+                    <strong>最重要的是</strong>：理解> 记忆。不要死记硬背，要理解各章节之间的逻辑关系，这样答题时才能游刃有余。<br><br>
+                    <strong>祝你考试成功！💪</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>📚 毛泽东思想和中国特色社会主义理论体系概论 - 复习指南</p>
+        <p>最后更新：2025年 | 适用于全国高校毛概课程</p>
+        <p>💡 提示：本清单仅供参考，请以本校教材和教师讲授内容为准</p>
+    </footer>
+    
+    <button class="print-btn" onclick="window.print()">🖨️ 打印本页</button>
+    
+    <script>
+        function switchTab(tabName) {
+            // 隐藏所有内容
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // 移除所有active类
+            const links = document.querySelectorAll('.nav-tabs a');
+            links.forEach(link => {
+                link.classList.remove('active');
+            });
+            
+            // 显示选中的内容
+            document.getElementById(tabName).classList.add('active');
+            
+            // 添加active类到点击的链接
+            event.target.classList.add('active');
+        }
+        
+        // 页面加载时初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            // 设置第一个标签为active
+            document.querySelector('.nav-tabs a').classList.add('active');
+        });
+    </script>
+</body>
+</html>
